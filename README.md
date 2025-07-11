@@ -25,7 +25,7 @@ Medical-Test-Cost-Estimator/
 ├── test_cost_estimator_model.pkl       # Trained machine learning model
 ├── app.py                              # Streamlit web application
 ├── Medical Test Cost Estimator.csv     # Dataset used for training
-└── README.md                           # Project documentation (this file)
+└── README.md                           # Project documentation
 ```
 
 ---
@@ -76,5 +76,3 @@ python -m streamlit run test_cost_estimator.py
 - Fill in patient and test details
 - Click "Estimate Cost"
 - Get an instant predicted cost (in INR)
-
----
