@@ -1,0 +1,1001 @@
+gender,age,test_type,insurance_status,lab_service_fee,preparation_required,home_sample_collection,urgency_level,estimated_test_cost_inr
+Male,56,Lipid Profile,Insured,212.62,No,No,Routine,835.73
+Male,42,COVID-19 RT-PCR,Not Insured,344.36,No,No,Routine,1570.51
+Male,48,COVID-19 RT-PCR,Insured,264.3,Yes,No,Emergency,2435.48
+Female,17,ECG,Insured,456.41,No,Yes,Priority,1664.72
+Male,45,Lipid Profile,Not Insured,385.73,No,No,Priority,1658.44
+Female,1,Ultrasound,Not Insured,366.49,No,No,Priority,2813.6
+Male,87,ECG,Not Insured,151.03,No,No,Routine,816.8
+Male,4,Blood Test,Insured,277.5,No,Yes,Priority,1319.16
+Male,84,Urine Analysis,Not Insured,212.33,No,No,Priority,984.61
+Male,5,Thyroid Panel,Not Insured,205.8,No,No,Routine,853.21
+Female,86,Ultrasound,Insured,288.92,No,No,Priority,2346.71
+Female,64,COVID-19 RT-PCR,Insured,377.3,No,No,Emergency,2481.63
+Male,52,MRI Scan,Insured,330.76,No,No,Routine,5210.53
+Female,66,COVID-19 RT-PCR,Insured,273.54,No,No,Priority,1763.4
+Female,66,Urine Analysis,Insured,281.79,Yes,Yes,Routine,966.48
+Male,7,Urine Analysis,Insured,211.7,No,No,Emergency,1558.72
+Female,86,MRI Scan,Insured,305.45,No,No,Priority,5480.99
+Female,54,Ultrasound,Insured,343.64,Yes,Yes,Priority,3118.88
+Female,62,Thyroid Panel,Not Insured,287.33,No,No,Emergency,1970.47
+Male,71,Blood Test,Insured,373.72,No,No,Routine,854.39
+Male,18,ECG,Not Insured,346.02,Yes,Yes,Emergency,2329.17
+Female,83,Ultrasound,Insured,243.92,No,No,Priority,2250.1
+Female,43,CT Scan,Insured,200.25,No,No,Priority,4317.87
+Female,40,ECG,Insured,303.04,No,Yes,Routine,945.01
+Female,51,Blood Test,Insured,326.89,No,Yes,Routine,979.92
+Male,25,Lipid Profile,Not Insured,319.4,No,Yes,Priority,1990.88
+Female,22,Blood Test,Not Insured,574.21,No,No,Priority,1521.47
+Male,74,COVID-19 RT-PCR,Insured,247.74,No,Yes,Priority,1803.91
+Female,69,Thyroid Panel,Not Insured,311.42,No,No,Routine,1011.76
+Male,8,MRI Scan,Not Insured,342.05,No,No,Priority,6693.22
+Male,55,Urine Analysis,Not Insured,193.85,No,No,Emergency,1466.03
+Male,15,Lipid Profile,Insured,350.65,No,No,Routine,994.69
+Female,18,CT Scan,Insured,147.55,No,Yes,Routine,4084.19
+Male,38,Urine Analysis,Not Insured,279.45,No,No,Routine,608.19
+Female,84,Urine Analysis,Insured,209.0,No,Yes,Routine,921.52
+Male,74,COVID-19 RT-PCR,Insured,428.34,No,Yes,Routine,1689.24
+Male,1,Ultrasound,Not Insured,220.51,No,No,Routine,2137.54
+Female,79,COVID-19 RT-PCR,Not Insured,494.47,No,Yes,Routine,1949.94
+Male,36,Blood Test,Insured,333.29,No,No,Priority,1134.03
+Female,84,CT Scan,Insured,276.46,Yes,Yes,Emergency,5404.54
+Male,78,MRI Scan,Not Insured,208.94,No,Yes,Priority,7084.75
+Female,43,CT Scan,Insured,291.82,Yes,No,Routine,4194.95
+Female,42,MRI Scan,Not Insured,404.21,No,No,Routine,6332.68
+Male,64,Ultrasound,Not Insured,239.87,No,No,Priority,2900.76
+Female,82,Ultrasound,Insured,335.55,No,No,Routine,1826.24
+Male,89,COVID-19 RT-PCR,Insured,268.51,No,Yes,Priority,1978.07
+Female,43,COVID-19 RT-PCR,Insured,426.18,No,Yes,Routine,1656.79
+Female,24,COVID-19 RT-PCR,Not Insured,312.55,No,No,Routine,1548.86
+Male,4,MRI Scan,Insured,329.23,Yes,No,Priority,5857.39
+Male,63,CT Scan,Insured,199.92,No,No,Routine,3827.4
+Female,11,CT Scan,Insured,370.99,No,No,Routine,3902.15
+Female,35,ECG,Insured,472.62,No,No,Routine,907.25
+Male,57,Lipid Profile,Insured,298.93,No,No,Routine,1055.72
+Male,6,MRI Scan,Insured,384.19,No,No,Priority,5746.6
+Male,89,COVID-19 RT-PCR,Insured,223.38,No,No,Routine,1275.76
+Female,43,MRI Scan,Insured,315.33,No,No,Emergency,6166.18
+Male,30,MRI Scan,Not Insured,235.46,No,Yes,Routine,6419.73
+Male,55,ECG,Insured,100.0,No,No,Priority,1228.55
+Female,61,COVID-19 RT-PCR,Insured,171.42,No,Yes,Routine,1429.47
+Female,74,Thyroid Panel,Insured,287.77,No,No,Priority,1272.91
+Female,78,Thyroid Panel,Insured,418.85,No,No,Routine,985.99
+Female,70,COVID-19 RT-PCR,Not Insured,292.47,No,Yes,Routine,1851.57
+Female,14,X-Ray,Insured,396.47,No,No,Priority,1648.93
+Female,22,COVID-19 RT-PCR,Insured,111.88,No,No,Emergency,2051.27
+Male,42,Urine Analysis,Not Insured,415.77,Yes,No,Emergency,2022.82
+Female,76,ECG,Insured,100.0,No,No,Emergency,1517.09
+Female,65,Ultrasound,Insured,311.85,Yes,No,Routine,2157.88
+Female,80,Lipid Profile,Not Insured,271.71,No,No,Routine,1271.32
+Female,41,X-Ray,Insured,333.81,No,No,Routine,1060.33
+Male,32,Ultrasound,Insured,353.31,No,No,Routine,1959.39
+Male,23,CT Scan,Insured,356.17,No,No,Routine,3857.39
+Female,83,MRI Scan,Insured,197.36,No,No,Routine,5060.01
+Female,39,Ultrasound,Insured,267.33,No,No,Routine,1768.97
+Female,3,Ultrasound,Insured,315.61,No,No,Routine,1893.37
+Female,47,Blood Test,Not Insured,236.29,No,Yes,Priority,1429.55
+Male,73,Urine Analysis,Not Insured,246.44,Yes,No,Priority,1190.84
+Male,82,COVID-19 RT-PCR,Insured,130.83,Yes,No,Routine,1246.08
+Female,14,ECG,Insured,154.26,Yes,No,Routine,924.71
+Male,39,MRI Scan,Insured,418.91,No,Yes,Routine,5628.36
+Male,44,X-Ray,Not Insured,284.75,No,No,Routine,1236.91
+Male,29,Ultrasound,Insured,303.42,Yes,Yes,Routine,2466.48
+Female,45,CT Scan,Not Insured,311.15,No,No,Routine,4885.16
+Female,43,COVID-19 RT-PCR,Not Insured,265.9,No,No,Priority,1939.78
+Female,70,MRI Scan,Insured,305.5,No,No,Routine,5053.88
+Female,83,Thyroid Panel,Not Insured,363.58,No,No,Routine,1183.03
+Female,16,MRI Scan,Insured,370.05,No,No,Routine,5376.09
+Female,87,COVID-19 RT-PCR,Insured,315.18,No,No,Routine,1341.83
+Male,1,CT Scan,Insured,216.96,No,No,Routine,3877.21
+Male,39,Urine Analysis,Not Insured,225.82,Yes,No,Priority,1422.89
+Female,89,Thyroid Panel,Insured,373.78,No,No,Routine,916.21
+Male,41,Ultrasound,Not Insured,252.61,No,Yes,Priority,3058.1
+Male,40,Ultrasound,Insured,365.63,No,No,Priority,2381.47
+Male,21,Ultrasound,Insured,269.84,Yes,No,Emergency,2990.08
+Male,62,MRI Scan,Not Insured,177.86,No,Yes,Routine,6296.99
+Male,58,CT Scan,Insured,434.89,Yes,Yes,Routine,4589.55
+Female,34,X-Ray,Insured,243.87,No,Yes,Routine,1188.99
+Female,82,X-Ray,Insured,325.05,No,No,Routine,1176.27
+Male,61,Thyroid Panel,Not Insured,360.59,No,Yes,Routine,1571.13
+Female,70,X-Ray,Insured,293.43,Yes,Yes,Routine,1392.13
+Male,35,Blood Test,Not Insured,383.37,No,No,Routine,803.68
+Female,63,CT Scan,Not Insured,470.18,No,Yes,Priority,5768.03
+Male,72,COVID-19 RT-PCR,Insured,203.73,No,No,Routine,1306.39
+Female,54,CT Scan,Insured,346.43,No,No,Routine,4026.5
+Female,29,Lipid Profile,Not Insured,369.99,No,No,Routine,1107.43
+Male,81,ECG,Not Insured,401.48,No,No,Priority,1394.43
+Female,39,MRI Scan,Insured,235.18,No,No,Priority,5452.58
+Female,5,Blood Test,Insured,295.75,No,No,Routine,469.31
+Male,23,X-Ray,Insured,167.84,No,No,Priority,1496.19
+Male,24,CT Scan,Insured,309.07,No,No,Priority,4519.72
+Female,59,MRI Scan,Not Insured,335.09,Yes,No,Priority,6996.76
+Male,33,Thyroid Panel,Insured,367.53,No,No,Priority,1358.35
+Female,6,ECG,Insured,270.11,Yes,Yes,Routine,1230.53
+Male,21,Thyroid Panel,Not Insured,310.64,Yes,No,Priority,1821.2
+Male,35,ECG,Not Insured,377.95,Yes,No,Priority,1779.07
+Male,25,X-Ray,Insured,227.39,Yes,Yes,Routine,1717.2
+Female,79,X-Ray,Insured,203.12,No,No,Routine,1075.3
+Male,8,MRI Scan,Insured,247.89,No,Yes,Routine,5329.11
+Male,52,CT Scan,Not Insured,343.94,Yes,Yes,Routine,5336.94
+Female,84,COVID-19 RT-PCR,Insured,100.0,Yes,No,Routine,1337.16
+Male,22,Ultrasound,Not Insured,520.28,Yes,No,Priority,3183.84
+Male,8,COVID-19 RT-PCR,Insured,394.05,Yes,Yes,Routine,1844.61
+Female,78,Ultrasound,Not Insured,268.73,No,No,Routine,2339.25
+Male,48,Lipid Profile,Insured,332.55,Yes,No,Routine,1105.65
+Female,29,ECG,Insured,250.44,No,No,Priority,1184.54
+Male,30,Lipid Profile,Insured,387.65,Yes,No,Routine,1047.68
+Male,77,COVID-19 RT-PCR,Insured,271.24,Yes,No,Routine,1388.86
+Female,82,Lipid Profile,Insured,164.99,Yes,No,Routine,1088.65
+Male,6,Blood Test,Insured,143.77,Yes,No,Emergency,1576.02
+Male,16,CT Scan,Insured,283.99,Yes,No,Routine,4088.57
+Male,49,CT Scan,Insured,398.42,Yes,No,Routine,4111.04
+Male,14,X-Ray,Not Insured,281.65,No,No,Priority,1748.31
+Female,64,MRI Scan,Not Insured,217.75,No,No,Priority,6781.31
+Female,25,Urine Analysis,Not Insured,168.53,Yes,No,Routine,534.79
+Male,55,Blood Test,Not Insured,202.43,No,No,Routine,640.06
+Female,66,COVID-19 RT-PCR,Insured,441.45,No,No,Routine,1477.4
+Female,9,ECG,Insured,463.69,No,No,Routine,956.75
+Female,4,Ultrasound,Not Insured,312.74,No,No,Routine,2182.64
+Female,59,Blood Test,Insured,421.56,No,Yes,Priority,1714.65
+Male,83,CT Scan,Not Insured,314.09,Yes,Yes,Routine,5260.1
+Male,53,CT Scan,Insured,300.34,Yes,Yes,Routine,4367.65
+Male,12,CT Scan,Insured,451.69,No,Yes,Emergency,5499.26
+Female,35,Thyroid Panel,Insured,218.67,Yes,No,Routine,911.99
+Female,50,Ultrasound,Not Insured,427.98,No,Yes,Priority,3313.56
+Male,9,COVID-19 RT-PCR,Insured,216.12,No,Yes,Routine,1519.02
+Female,84,Lipid Profile,Insured,167.88,No,Yes,Routine,1144.29
+Female,69,ECG,Not Insured,187.56,No,Yes,Emergency,2048.53
+Female,28,X-Ray,Insured,312.07,No,No,Routine,1068.34
+Female,81,ECG,Not Insured,249.71,No,No,Priority,1308.46
+Female,50,ECG,Insured,243.87,No,No,Emergency,1802.94
+Female,62,Thyroid Panel,Insured,164.31,Yes,No,Routine,1061.74
+Female,20,Ultrasound,Insured,108.28,No,Yes,Routine,1905.28
+Male,12,Thyroid Panel,Insured,350.97,No,No,Routine,937.91
+Female,27,COVID-19 RT-PCR,Not Insured,275.71,Yes,Yes,Priority,2451.21
+Male,41,Ultrasound,Not Insured,283.48,No,Yes,Routine,2593.29
+Male,65,Urine Analysis,Not Insured,348.84,No,No,Priority,1017.69
+Male,38,X-Ray,Not Insured,344.6,No,No,Priority,1825.08
+Female,45,Thyroid Panel,Insured,339.43,No,Yes,Emergency,2089.15
+Male,56,Thyroid Panel,Not Insured,100.0,No,Yes,Priority,1615.02
+Female,34,X-Ray,Insured,357.88,No,Yes,Routine,1419.45
+Male,6,MRI Scan,Insured,384.79,No,No,Routine,5314.86
+Male,22,Urine Analysis,Not Insured,386.6,No,No,Routine,754.3
+Male,70,MRI Scan,Not Insured,190.49,No,Yes,Priority,7008.42
+Female,23,Thyroid Panel,Not Insured,309.13,No,No,Priority,1518.74
+Female,65,X-Ray,Insured,397.56,No,No,Priority,1688.75
+Female,65,Lipid Profile,Insured,459.07,No,No,Routine,948.43
+Male,46,COVID-19 RT-PCR,Insured,100.0,No,No,Routine,958.45
+Female,14,X-Ray,Not Insured,331.39,No,No,Priority,1986.42
+Female,38,CT Scan,Insured,382.27,Yes,No,Priority,4725.25
+Male,52,MRI Scan,Not Insured,395.9,No,Yes,Routine,6529.87
+Female,76,Blood Test,Not Insured,423.55,No,No,Routine,832.19
+Male,77,Lipid Profile,Insured,128.94,No,No,Routine,782.39
+Male,4,ECG,Insured,285.39,No,No,Routine,962.31
+Female,80,MRI Scan,Insured,420.25,No,No,Routine,5261.77
+Male,4,Thyroid Panel,Insured,277.37,No,No,Emergency,2012.22
+Female,41,Urine Analysis,Not Insured,471.54,No,No,Priority,1321.47
+Female,79,Blood Test,Not Insured,306.34,No,No,Routine,695.88
+Male,47,Urine Analysis,Insured,342.36,No,No,Routine,360.73
+Female,16,Lipid Profile,Not Insured,258.23,No,Yes,Priority,1856.49
+Male,19,MRI Scan,Insured,195.05,Yes,No,Routine,5074.76
+Male,33,Urine Analysis,Insured,152.38,Yes,No,Priority,1012.6
+Female,0,Lipid Profile,Not Insured,495.48,No,No,Routine,1314.49
+Female,11,Thyroid Panel,Not Insured,193.76,No,No,Priority,1352.12
+Male,28,Ultrasound,Insured,297.32,Yes,No,Priority,2571.37
+Male,64,COVID-19 RT-PCR,Insured,339.86,No,No,Routine,1232.77
+Female,51,MRI Scan,Not Insured,141.42,No,No,Priority,6601.36
+Female,85,MRI Scan,Insured,127.12,No,No,Routine,4854.75
+Male,57,Urine Analysis,Not Insured,275.08,No,Yes,Routine,771.21
+Male,85,COVID-19 RT-PCR,Insured,358.54,No,Yes,Routine,1799.66
+Female,4,ECG,Insured,213.67,No,No,Priority,1147.26
+Female,47,ECG,Not Insured,303.32,No,No,Routine,667.28
+Male,73,COVID-19 RT-PCR,Insured,368.16,No,No,Emergency,2346.15
+Male,62,Blood Test,Insured,286.86,No,Yes,Priority,1447.44
+Male,72,Ultrasound,Insured,276.42,No,No,Routine,1859.91
+Female,11,Blood Test,Not Insured,296.38,No,Yes,Routine,1023.66
+Female,2,Urine Analysis,Insured,472.92,No,No,Emergency,1710.14
+Male,13,Lipid Profile,Insured,100.0,No,No,Emergency,1699.44
+Female,37,ECG,Insured,324.7,No,Yes,Priority,1417.56
+Female,72,Thyroid Panel,Not Insured,344.62,Yes,No,Priority,1765.85
+Male,35,Blood Test,Insured,325.91,No,No,Routine,692.64
+Female,80,ECG,Insured,434.84,Yes,No,Routine,1245.14
+Female,85,MRI Scan,Insured,428.75,No,Yes,Priority,5958.48
+Male,73,CT Scan,Insured,279.54,No,Yes,Emergency,5186.91
+Female,84,X-Ray,Not Insured,256.23,Yes,No,Routine,1442.87
+Female,81,MRI Scan,Not Insured,323.07,No,No,Emergency,7354.24
+Male,9,Ultrasound,Insured,215.41,No,Yes,Routine,2106.83
+Female,61,ECG,Insured,376.56,No,No,Routine,916.15
+Female,9,Lipid Profile,Insured,199.53,No,No,Priority,1382.34
+Female,61,Urine Analysis,Insured,294.05,No,No,Routine,613.28
+Female,68,Lipid Profile,Not Insured,259.79,No,No,Routine,1041.83
+Female,72,MRI Scan,Insured,332.48,No,Yes,Priority,5838.63
+Male,48,Blood Test,Insured,402.99,No,No,Emergency,1890.32
+Male,54,CT Scan,Insured,256.23,No,Yes,Routine,4153.14
+Female,39,COVID-19 RT-PCR,Not Insured,351.63,No,No,Priority,2134.84
+Male,86,Urine Analysis,Not Insured,339.45,No,No,Routine,394.7
+Female,67,Lipid Profile,Not Insured,380.75,No,No,Emergency,2066.9
+Female,42,Ultrasound,Insured,268.2,No,No,Routine,1935.86
+Male,51,COVID-19 RT-PCR,Insured,320.14,No,No,Emergency,2315.29
+Female,59,Ultrasound,Insured,257.17,Yes,Yes,Routine,2520.53
+Male,56,ECG,Insured,384.57,No,No,Routine,963.21
+Male,34,ECG,Not Insured,272.36,No,No,Routine,897.84
+Female,46,MRI Scan,Not Insured,395.2,Yes,No,Routine,6400.99
+Male,36,ECG,Insured,404.13,No,No,Routine,725.17
+Female,50,ECG,Insured,143.49,No,No,Emergency,1455.46
+Female,39,Blood Test,Insured,567.01,No,No,Routine,896.66
+Male,45,COVID-19 RT-PCR,Insured,232.63,No,Yes,Priority,1993.5
+Female,27,Thyroid Panel,Not Insured,335.31,Yes,No,Routine,1161.57
+Female,83,Lipid Profile,Insured,310.13,Yes,No,Routine,1166.61
+Male,12,ECG,Not Insured,226.54,No,Yes,Priority,1774.78
+Male,80,Blood Test,Insured,232.26,No,No,Routine,427.28
+Male,60,Lipid Profile,Insured,273.53,No,No,Routine,1017.74
+Female,37,Blood Test,Insured,302.35,No,No,Priority,1123.5
+Female,11,COVID-19 RT-PCR,Insured,131.11,No,Yes,Routine,1513.66
+Female,1,Urine Analysis,Insured,286.52,Yes,No,Priority,1305.4
+Male,84,CT Scan,Not Insured,526.31,No,No,Routine,4941.84
+Female,89,Thyroid Panel,Not Insured,441.92,No,No,Routine,1162.75
+Female,3,Thyroid Panel,Insured,138.9,No,No,Routine,661.63
+Male,3,Thyroid Panel,Insured,214.44,No,No,Priority,1231.42
+Female,2,X-Ray,Insured,272.35,No,Yes,Routine,1569.06
+Male,59,MRI Scan,Not Insured,161.43,No,Yes,Priority,6807.75
+Male,66,COVID-19 RT-PCR,Insured,328.65,Yes,No,Routine,1366.54
+Female,10,Blood Test,Insured,465.36,No,No,Routine,628.67
+Female,16,Urine Analysis,Insured,392.15,No,No,Emergency,1641.05
+Male,77,ECG,Insured,151.16,No,No,Priority,1058.16
+Male,48,COVID-19 RT-PCR,Insured,404.43,No,No,Priority,1590.33
+Male,17,Urine Analysis,Not Insured,409.12,No,No,Routine,677.14
+Male,74,MRI Scan,Insured,262.0,No,No,Priority,5524.29
+Male,88,MRI Scan,Insured,420.08,No,No,Priority,5836.6
+Male,4,Lipid Profile,Not Insured,390.76,No,No,Routine,1131.78
+Female,12,COVID-19 RT-PCR,Insured,227.24,Yes,No,Emergency,2399.59
+Female,79,ECG,Not Insured,354.36,No,No,Routine,1127.96
+Male,70,Lipid Profile,Not Insured,322.1,No,No,Routine,1009.8
+Male,0,COVID-19 RT-PCR,Not Insured,262.31,No,Yes,Routine,1902.27
+Male,11,ECG,Insured,124.98,No,No,Priority,1174.56
+Male,7,X-Ray,Insured,337.63,No,No,Routine,987.95
+Female,23,CT Scan,Not Insured,220.68,No,Yes,Priority,5462.86
+Female,41,Thyroid Panel,Not Insured,361.26,No,No,Routine,1038.39
+Male,0,MRI Scan,Insured,377.05,No,No,Routine,5224.39
+Male,55,MRI Scan,Insured,364.28,Yes,No,Routine,5338.73
+Female,16,Urine Analysis,Not Insured,394.86,No,No,Priority,1231.97
+Female,81,Ultrasound,Not Insured,250.42,Yes,No,Emergency,3391.59
+Male,48,CT Scan,Not Insured,422.76,No,Yes,Priority,5847.09
+Male,19,Ultrasound,Insured,343.95,No,No,Routine,2030.34
+Male,21,Thyroid Panel,Not Insured,266.62,No,Yes,Routine,1195.0
+Female,48,Blood Test,Insured,414.44,No,No,Routine,832.2
+Male,12,Thyroid Panel,Insured,327.9,No,No,Emergency,1877.71
+Male,39,ECG,Not Insured,217.28,No,No,Routine,824.87
+Male,67,X-Ray,Insured,453.96,No,No,Routine,1317.66
+Female,59,Lipid Profile,Insured,316.06,No,No,Priority,1435.79
+Male,20,Lipid Profile,Insured,339.35,No,No,Priority,1398.1
+Male,83,ECG,Not Insured,357.97,No,Yes,Routine,1479.21
+Female,3,X-Ray,Not Insured,364.46,No,No,Routine,1550.37
+Male,19,Ultrasound,Insured,207.35,No,Yes,Routine,2116.36
+Female,37,ECG,Not Insured,100.0,No,No,Emergency,1441.25
+Female,68,Ultrasound,Insured,275.16,No,No,Priority,2495.77
+Female,82,Urine Analysis,Not Insured,420.68,No,No,Priority,1316.34
+Female,71,X-Ray,Insured,200.66,Yes,No,Emergency,2057.02
+Male,56,Urine Analysis,Insured,181.34,No,No,Routine,529.47
+Male,41,X-Ray,Not Insured,401.54,No,No,Priority,1879.78
+Male,23,ECG,Not Insured,377.71,No,No,Routine,976.17
+Male,76,MRI Scan,Insured,192.31,No,Yes,Routine,5388.53
+Male,68,Thyroid Panel,Insured,304.65,No,Yes,Emergency,2071.31
+Male,19,Ultrasound,Insured,250.89,No,No,Routine,1729.2
+Female,61,Urine Analysis,Insured,100.0,No,No,Routine,245.03
+Male,18,Blood Test,Insured,254.8,No,No,Routine,603.74
+Male,44,Thyroid Panel,Not Insured,391.7,No,Yes,Routine,1460.67
+Male,76,Thyroid Panel,Not Insured,406.58,No,No,Routine,1163.91
+Male,35,CT Scan,Insured,343.89,No,No,Priority,4377.45
+Female,86,Blood Test,Insured,294.54,No,No,Priority,1043.29
+Male,0,ECG,Insured,195.27,No,No,Routine,522.07
+Female,47,COVID-19 RT-PCR,Not Insured,405.06,No,No,Priority,2101.84
+Male,72,CT Scan,Not Insured,239.24,No,No,Routine,4523.09
+Male,27,Thyroid Panel,Not Insured,194.77,Yes,No,Routine,977.78
+Male,45,X-Ray,Not Insured,441.95,No,Yes,Priority,2403.24
+Female,72,CT Scan,Insured,375.25,No,No,Priority,4559.07
+Male,64,CT Scan,Not Insured,306.65,No,No,Routine,4603.9
+Male,14,MRI Scan,Insured,327.76,No,Yes,Routine,5404.36
+Female,2,COVID-19 RT-PCR,Not Insured,140.31,No,No,Priority,1747.14
+Male,55,Lipid Profile,Insured,327.35,No,No,Routine,1143.53
+Female,17,MRI Scan,Not Insured,306.52,No,Yes,Priority,7244.22
+Male,38,COVID-19 RT-PCR,Insured,274.26,No,No,Priority,1658.82
+Female,70,MRI Scan,Insured,265.58,No,No,Routine,5243.38
+Female,50,X-Ray,Insured,450.17,No,Yes,Priority,2167.58
+Female,35,ECG,Not Insured,186.61,No,Yes,Routine,1117.77
+Female,83,Blood Test,Insured,498.92,No,No,Priority,1215.7
+Male,9,COVID-19 RT-PCR,Insured,190.44,Yes,No,Routine,1469.63
+Female,48,CT Scan,Not Insured,351.88,No,Yes,Routine,4892.91
+Male,26,Urine Analysis,Insured,211.95,No,Yes,Routine,677.04
+Male,50,Ultrasound,Not Insured,153.04,No,No,Emergency,3082.67
+Male,55,X-Ray,Not Insured,292.79,No,No,Routine,1145.41
+Male,23,ECG,Insured,470.81,Yes,No,Priority,1755.54
+Male,12,Ultrasound,Not Insured,248.8,No,Yes,Routine,2500.26
+Female,64,Ultrasound,Not Insured,188.02,No,No,Routine,2079.05
+Female,15,CT Scan,Insured,219.58,Yes,No,Priority,4399.63
+Male,30,Ultrasound,Insured,162.07,No,No,Routine,1708.65
+Female,34,ECG,Not Insured,283.16,No,No,Routine,882.66
+Female,36,Lipid Profile,Insured,290.38,No,No,Priority,1588.05
+Female,43,MRI Scan,Not Insured,370.36,No,Yes,Routine,6755.33
+Female,68,COVID-19 RT-PCR,Insured,272.44,No,Yes,Priority,1915.68
+Female,79,X-Ray,Not Insured,270.71,No,No,Priority,1588.32
+Female,31,X-Ray,Insured,331.32,No,Yes,Routine,1491.96
+Female,64,Blood Test,Insured,219.96,No,No,Routine,388.8
+Male,64,Urine Analysis,Not Insured,304.25,No,No,Priority,1124.75
+Female,11,COVID-19 RT-PCR,Not Insured,435.21,No,No,Routine,1453.41
+Female,39,ECG,Not Insured,554.47,No,No,Priority,1727.02
+Male,47,MRI Scan,Insured,500.19,No,Yes,Priority,6166.36
+Female,28,COVID-19 RT-PCR,Insured,450.77,Yes,Yes,Emergency,2891.75
+Male,88,Lipid Profile,Insured,291.11,No,Yes,Priority,1721.8
+Female,7,COVID-19 RT-PCR,Insured,497.47,No,Yes,Priority,2319.03
+Male,45,COVID-19 RT-PCR,Insured,272.29,No,No,Routine,1034.81
+Male,44,X-Ray,Not Insured,258.07,No,No,Routine,1311.82
+Female,77,Thyroid Panel,Insured,429.4,Yes,No,Routine,1206.58
+Female,47,COVID-19 RT-PCR,Not Insured,178.96,No,Yes,Routine,1761.09
+Male,75,MRI Scan,Insured,324.63,No,Yes,Routine,5379.98
+Female,39,MRI Scan,Insured,325.93,No,No,Priority,5385.76
+Female,5,X-Ray,Insured,200.15,No,No,Priority,1503.66
+Male,62,Blood Test,Insured,458.1,No,No,Priority,1298.37
+Male,74,ECG,Not Insured,321.79,No,No,Routine,950.92
+Male,26,Thyroid Panel,Not Insured,357.41,Yes,No,Routine,1452.33
+Male,75,Thyroid Panel,Not Insured,274.97,No,No,Emergency,1847.95
+Male,59,X-Ray,Not Insured,211.73,No,No,Routine,1375.4
+Male,43,COVID-19 RT-PCR,Insured,421.43,No,No,Emergency,2439.82
+Female,41,ECG,Insured,248.52,Yes,No,Routine,996.35
+Female,78,Thyroid Panel,Insured,330.06,No,No,Routine,1025.16
+Female,51,CT Scan,Not Insured,268.1,No,No,Routine,4832.87
+Male,46,ECG,Insured,292.35,No,No,Routine,669.68
+Female,64,X-Ray,Insured,161.9,Yes,Yes,Routine,1340.71
+Male,28,MRI Scan,Not Insured,421.09,Yes,Yes,Routine,6879.21
+Female,28,ECG,Insured,402.44,Yes,No,Routine,1108.43
+Male,10,Lipid Profile,Not Insured,185.35,No,No,Priority,1543.22
+Female,56,Lipid Profile,Not Insured,100.0,No,No,Routine,1030.13
+Female,59,X-Ray,Not Insured,332.29,No,No,Priority,1852.9
+Female,57,Blood Test,Not Insured,215.07,No,Yes,Emergency,1841.56
+Female,68,ECG,Not Insured,476.65,Yes,No,Routine,1389.46
+Female,79,Blood Test,Insured,198.19,No,No,Priority,999.87
+Female,82,Thyroid Panel,Not Insured,370.84,No,Yes,Routine,1386.49
+Male,13,Urine Analysis,Insured,141.64,Yes,No,Priority,1021.81
+Male,42,X-Ray,Not Insured,212.37,No,No,Priority,1566.65
+Female,49,MRI Scan,Insured,237.13,No,Yes,Priority,5812.38
+Female,43,Urine Analysis,Insured,228.51,No,No,Routine,286.52
+Male,71,Blood Test,Not Insured,208.02,Yes,No,Emergency,1808.3
+Female,39,MRI Scan,Not Insured,184.44,Yes,No,Routine,6445.71
+Male,63,Blood Test,Insured,337.44,Yes,No,Priority,1190.05
+Female,9,MRI Scan,Insured,311.27,No,Yes,Routine,5401.54
+Male,52,MRI Scan,Insured,363.68,No,No,Priority,5837.02
+Female,69,Lipid Profile,Insured,356.33,No,Yes,Routine,1285.3
+Female,19,Urine Analysis,Insured,366.06,Yes,No,Priority,1241.56
+Female,8,CT Scan,Not Insured,447.24,No,No,Emergency,6050.19
+Male,16,MRI Scan,Insured,368.52,No,No,Priority,5516.31
+Male,5,Thyroid Panel,Not Insured,353.76,No,No,Routine,1032.64
+Female,54,COVID-19 RT-PCR,Not Insured,193.16,No,Yes,Priority,2164.75
+Female,6,COVID-19 RT-PCR,Not Insured,269.66,No,No,Priority,2058.47
+Female,48,ECG,Not Insured,193.66,Yes,No,Routine,958.09
+Female,4,Blood Test,Not Insured,435.26,No,No,Emergency,1778.27
+Female,27,Blood Test,Not Insured,292.4,No,No,Priority,1323.44
+Male,76,COVID-19 RT-PCR,Insured,368.71,Yes,No,Routine,1613.91
+Male,70,Blood Test,Not Insured,255.69,No,No,Routine,703.67
+Male,78,Lipid Profile,Insured,380.12,No,No,Routine,912.65
+Female,21,COVID-19 RT-PCR,Not Insured,460.38,No,Yes,Routine,1966.26
+Male,81,X-Ray,Insured,410.72,No,No,Priority,1876.38
+Male,61,MRI Scan,Insured,100.0,No,No,Routine,4877.38
+Male,21,Ultrasound,Insured,335.44,No,Yes,Priority,2788.98
+Female,64,X-Ray,Not Insured,313.47,No,Yes,Routine,1426.65
+Male,82,MRI Scan,Not Insured,363.62,No,No,Routine,6371.12
+Female,70,Lipid Profile,Insured,439.43,No,Yes,Priority,1978.69
+Female,53,Urine Analysis,Insured,299.59,Yes,No,Routine,735.21
+Female,51,MRI Scan,Insured,249.98,No,No,Routine,4872.76
+Male,73,X-Ray,Insured,406.0,No,No,Priority,1683.88
+Female,76,Blood Test,Insured,268.09,No,No,Emergency,1594.11
+Male,72,Ultrasound,Insured,284.0,Yes,Yes,Priority,2765.16
+Female,42,CT Scan,Not Insured,368.41,No,No,Routine,4942.49
+Female,80,COVID-19 RT-PCR,Insured,239.71,No,No,Routine,1253.5
+Male,23,MRI Scan,Not Insured,450.15,No,No,Routine,6539.98
+Male,36,MRI Scan,Not Insured,336.7,No,No,Priority,6862.21
+Female,17,Ultrasound,Not Insured,320.64,No,Yes,Routine,2747.15
+Male,44,X-Ray,Insured,396.7,No,No,Routine,1104.89
+Female,41,Lipid Profile,Not Insured,270.67,Yes,No,Routine,1445.38
+Male,18,Ultrasound,Not Insured,212.73,No,No,Routine,2241.83
+Female,9,Lipid Profile,Insured,272.78,No,No,Priority,1355.55
+Male,87,Lipid Profile,Not Insured,349.16,Yes,No,Routine,1243.2
+Female,60,CT Scan,Insured,375.42,No,Yes,Routine,4369.08
+Female,49,ECG,Insured,341.27,No,No,Priority,1375.09
+Male,35,COVID-19 RT-PCR,Not Insured,299.57,No,Yes,Routine,2054.07
+Male,4,CT Scan,Insured,366.81,No,No,Routine,4019.66
+Female,81,CT Scan,Insured,201.19,No,No,Routine,3618.02
+Male,33,Thyroid Panel,Insured,416.01,No,No,Routine,1017.93
+Male,14,Ultrasound,Not Insured,310.56,No,No,Emergency,3369.08
+Female,82,ECG,Not Insured,266.79,No,No,Routine,910.87
+Male,63,MRI Scan,Insured,171.53,No,Yes,Routine,5335.24
+Female,40,Urine Analysis,Not Insured,392.59,No,No,Priority,1029.29
+Male,59,Blood Test,Insured,397.55,No,No,Routine,882.57
+Female,32,Thyroid Panel,Insured,328.98,No,Yes,Routine,1214.43
+Male,76,COVID-19 RT-PCR,Insured,288.08,No,No,Priority,1758.41
+Male,46,Urine Analysis,Insured,230.0,Yes,No,Emergency,1605.35
+Male,88,Blood Test,Insured,294.5,No,No,Routine,569.79
+Female,81,X-Ray,Not Insured,392.41,No,No,Routine,1268.88
+Male,9,Urine Analysis,Insured,296.12,Yes,No,Routine,716.06
+Female,75,Ultrasound,Insured,192.14,Yes,No,Emergency,2827.18
+Female,59,Lipid Profile,Insured,504.88,No,Yes,Routine,1508.42
+Male,47,X-Ray,Insured,350.08,No,No,Routine,1135.79
+Male,19,Lipid Profile,Insured,181.87,No,No,Priority,1275.68
+Female,24,Thyroid Panel,Insured,307.54,Yes,Yes,Routine,1376.95
+Male,34,ECG,Insured,382.08,No,No,Routine,897.44
+Male,85,Ultrasound,Insured,311.29,No,No,Routine,1770.59
+Male,7,Lipid Profile,Insured,224.05,No,No,Priority,1282.55
+Male,23,X-Ray,Insured,308.66,No,No,Priority,1566.65
+Female,29,Lipid Profile,Insured,155.24,No,No,Priority,1237.25
+Female,40,MRI Scan,Not Insured,467.66,No,No,Routine,6448.08
+Female,68,Lipid Profile,Insured,139.41,Yes,No,Priority,1740.28
+Female,41,MRI Scan,Not Insured,409.56,No,Yes,Routine,6670.06
+Male,80,Lipid Profile,Insured,400.13,No,No,Routine,1186.29
+Female,78,MRI Scan,Insured,112.66,No,Yes,Routine,5148.98
+Male,16,Ultrasound,Insured,384.95,No,No,Routine,1943.84
+Female,89,Blood Test,Not Insured,187.79,Yes,No,Routine,711.7
+Male,36,Blood Test,Insured,297.43,No,No,Priority,1103.33
+Male,59,Urine Analysis,Insured,342.89,Yes,Yes,Routine,982.08
+Male,10,Thyroid Panel,Not Insured,294.65,No,No,Priority,1511.89
+Male,73,X-Ray,Insured,113.36,Yes,No,Priority,1721.63
+Male,85,X-Ray,Insured,338.35,No,No,Routine,1120.23
+Female,12,CT Scan,Insured,458.21,No,No,Priority,4563.05
+Male,88,X-Ray,Not Insured,273.49,No,Yes,Routine,1566.42
+Male,80,Lipid Profile,Insured,409.5,No,Yes,Routine,1223.12
+Female,18,MRI Scan,Not Insured,234.84,No,No,Emergency,7281.95
+Female,74,Urine Analysis,Not Insured,442.01,Yes,Yes,Priority,1708.88
+Male,28,Lipid Profile,Not Insured,197.75,No,Yes,Routine,1371.67
+Female,85,CT Scan,Insured,491.76,Yes,Yes,Priority,5054.3
+Male,88,X-Ray,Insured,233.61,No,Yes,Routine,1443.42
+Female,35,Lipid Profile,Insured,216.85,No,No,Priority,1314.69
+Male,51,Ultrasound,Not Insured,315.58,No,No,Routine,2227.36
+Male,78,Thyroid Panel,Insured,290.28,No,No,Routine,823.38
+Female,85,Lipid Profile,Insured,396.03,No,No,Routine,1136.19
+Male,21,Urine Analysis,Not Insured,378.68,Yes,No,Priority,1223.45
+Male,75,X-Ray,Insured,374.65,No,No,Routine,1250.61
+Female,87,CT Scan,Insured,239.46,Yes,No,Priority,4495.52
+Female,63,Lipid Profile,Not Insured,309.94,No,Yes,Routine,1470.94
+Male,88,Blood Test,Not Insured,391.56,No,No,Routine,762.7
+Male,60,Urine Analysis,Not Insured,318.98,Yes,No,Routine,774.16
+Male,50,COVID-19 RT-PCR,Not Insured,384.19,No,No,Emergency,2486.27
+Female,7,Urine Analysis,Insured,260.52,No,No,Routine,495.51
+Female,19,COVID-19 RT-PCR,Insured,210.29,No,No,Emergency,2366.53
+Female,73,MRI Scan,Insured,287.01,No,No,Routine,5028.47
+Female,66,Lipid Profile,Not Insured,182.75,No,No,Routine,958.71
+Male,9,MRI Scan,Insured,164.34,No,No,Routine,5004.41
+Female,19,ECG,Insured,228.59,No,No,Routine,765.32
+Female,80,Thyroid Panel,Not Insured,418.58,No,Yes,Routine,1397.35
+Male,51,CT Scan,Not Insured,321.08,No,Yes,Routine,5138.92
+Male,9,ECG,Not Insured,389.84,No,No,Routine,1103.14
+Female,49,Blood Test,Insured,117.38,Yes,No,Priority,1139.69
+Male,27,ECG,Not Insured,213.18,No,No,Priority,1372.92
+Male,13,X-Ray,Insured,354.76,No,Yes,Priority,1890.11
+Male,13,Blood Test,Insured,395.22,Yes,No,Routine,644.44
+Female,12,ECG,Insured,403.0,No,No,Routine,817.97
+Male,24,X-Ray,Insured,312.46,No,No,Priority,1803.63
+Male,27,ECG,Insured,280.23,Yes,No,Routine,855.64
+Male,30,Thyroid Panel,Insured,120.41,No,No,Priority,1089.18
+Male,44,Lipid Profile,Insured,257.66,No,No,Routine,822.93
+Male,55,Thyroid Panel,Insured,366.88,Yes,No,Emergency,2123.36
+Male,59,Lipid Profile,Insured,417.08,No,No,Priority,1530.77
+Female,47,X-Ray,Insured,268.17,No,Yes,Emergency,2407.65
+Female,40,Urine Analysis,Insured,224.15,No,Yes,Routine,742.39
+Male,15,Blood Test,Insured,449.71,No,No,Routine,767.53
+Female,77,Thyroid Panel,Insured,517.2,No,No,Priority,1553.11
+Male,47,Lipid Profile,Insured,333.11,No,Yes,Routine,1110.83
+Female,17,MRI Scan,Not Insured,256.42,No,No,Emergency,7184.52
+Female,79,Lipid Profile,Insured,253.98,No,No,Routine,723.97
+Female,16,Thyroid Panel,Not Insured,450.63,No,Yes,Routine,1487.43
+Male,34,Blood Test,Not Insured,357.08,No,No,Priority,1283.64
+Male,88,Ultrasound,Not Insured,273.98,No,No,Routine,2168.45
+Female,63,Ultrasound,Insured,457.49,No,No,Routine,2183.72
+Male,0,CT Scan,Insured,343.37,No,No,Emergency,5062.75
+Female,67,Thyroid Panel,Insured,216.65,No,No,Priority,1239.21
+Female,21,CT Scan,Not Insured,461.79,No,Yes,Routine,5367.03
+Female,80,Lipid Profile,Insured,520.16,No,No,Routine,1208.84
+Male,23,Thyroid Panel,Not Insured,100.0,No,Yes,Routine,1047.77
+Female,72,Urine Analysis,Insured,238.31,No,No,Routine,618.97
+Female,6,COVID-19 RT-PCR,Not Insured,386.68,Yes,No,Priority,2379.05
+Male,49,MRI Scan,Insured,244.86,No,Yes,Routine,5441.08
+Female,30,Urine Analysis,Not Insured,265.71,No,Yes,Priority,1544.0
+Female,87,Lipid Profile,Insured,482.19,No,Yes,Routine,1380.58
+Female,36,MRI Scan,Not Insured,231.94,No,No,Routine,6236.05
+Female,6,Thyroid Panel,Insured,229.28,No,Yes,Priority,1430.99
+Male,49,Ultrasound,Not Insured,280.08,No,Yes,Routine,2610.73
+Female,57,Urine Analysis,Not Insured,400.29,No,Yes,Emergency,2046.98
+Male,79,CT Scan,Insured,241.64,No,No,Priority,4352.99
+Female,27,CT Scan,Insured,303.09,No,No,Priority,4407.66
+Male,17,COVID-19 RT-PCR,Not Insured,310.22,Yes,No,Routine,1701.06
+Male,78,Blood Test,Insured,261.52,No,Yes,Priority,1413.31
+Male,50,CT Scan,Insured,237.2,No,No,Routine,3791.3
+Male,33,CT Scan,Not Insured,207.62,No,No,Emergency,5670.45
+Male,63,X-Ray,Not Insured,438.3,No,No,Routine,1263.97
+Female,83,Lipid Profile,Insured,310.87,No,No,Priority,1352.31
+Male,23,Ultrasound,Insured,193.01,No,No,Priority,2212.71
+Male,4,ECG,Insured,226.05,No,No,Emergency,1730.25
+Female,14,Blood Test,Not Insured,333.28,No,No,Routine,668.31
+Male,24,Thyroid Panel,Insured,383.7,No,Yes,Priority,1661.3
+Female,55,Lipid Profile,Not Insured,270.58,No,No,Routine,989.71
+Male,79,CT Scan,Not Insured,471.19,Yes,No,Routine,5264.34
+Female,13,Ultrasound,Insured,315.78,Yes,No,Priority,2634.21
+Female,66,CT Scan,Not Insured,137.76,No,No,Priority,5164.13
+Male,72,Lipid Profile,Not Insured,182.8,No,Yes,Routine,1264.72
+Male,83,Blood Test,Not Insured,207.48,No,No,Routine,508.89
+Male,23,MRI Scan,Not Insured,354.05,Yes,No,Emergency,7541.84
+Female,69,CT Scan,Insured,370.29,No,No,Priority,4558.33
+Male,72,COVID-19 RT-PCR,Insured,182.89,No,No,Priority,1655.39
+Female,48,X-Ray,Insured,323.12,No,Yes,Routine,1378.18
+Female,36,X-Ray,Not Insured,279.14,No,Yes,Routine,1875.4
+Male,20,Lipid Profile,Insured,324.97,Yes,No,Routine,1192.16
+Male,1,MRI Scan,Not Insured,127.75,Yes,Yes,Routine,6658.46
+Female,50,MRI Scan,Insured,252.06,No,Yes,Priority,5692.88
+Female,87,COVID-19 RT-PCR,Insured,292.07,No,No,Priority,1628.9
+Female,42,COVID-19 RT-PCR,Insured,292.99,No,No,Routine,1354.78
+Male,38,Blood Test,Not Insured,410.48,No,No,Routine,769.56
+Male,19,Urine Analysis,Insured,226.5,Yes,No,Routine,588.01
+Female,74,ECG,Insured,336.84,No,No,Routine,811.2
+Male,41,COVID-19 RT-PCR,Insured,137.18,No,No,Routine,1175.54
+Female,46,Blood Test,Not Insured,146.25,No,No,Routine,464.65
+Female,29,Thyroid Panel,Not Insured,243.98,No,No,Routine,793.09
+Female,3,COVID-19 RT-PCR,Insured,125.02,No,No,Routine,1050.61
+Female,57,CT Scan,Not Insured,240.95,No,No,Priority,5372.43
+Male,36,Thyroid Panel,Insured,229.86,Yes,No,Routine,1032.06
+Male,5,Ultrasound,Not Insured,413.15,No,No,Priority,2710.89
+Male,30,Lipid Profile,Not Insured,145.71,No,No,Routine,1030.82
+Male,88,Urine Analysis,Not Insured,326.9,No,No,Routine,681.46
+Female,26,X-Ray,Not Insured,240.12,No,No,Routine,1424.66
+Male,81,Thyroid Panel,Insured,133.52,No,Yes,Routine,942.66
+Male,85,Lipid Profile,Insured,219.7,No,No,Priority,1466.03
+Female,56,Ultrasound,Insured,325.01,Yes,No,Priority,2623.24
+Female,21,MRI Scan,Not Insured,223.85,Yes,No,Routine,6381.11
+Male,34,MRI Scan,Not Insured,324.42,Yes,Yes,Routine,6800.32
+Female,58,Ultrasound,Insured,331.22,No,Yes,Priority,2480.79
+Female,4,CT Scan,Not Insured,369.14,Yes,No,Routine,5111.7
+Female,37,Thyroid Panel,Insured,467.64,No,Yes,Routine,1295.53
+Male,40,Ultrasound,Insured,428.93,No,No,Routine,2052.08
+Male,44,ECG,Insured,415.51,No,No,Routine,802.24
+Male,29,Urine Analysis,Insured,397.13,No,No,Routine,794.31
+Female,88,Blood Test,Insured,196.55,No,No,Priority,1321.74
+Female,67,Ultrasound,Not Insured,490.75,No,No,Routine,2416.51
+Female,30,X-Ray,Not Insured,376.51,No,No,Priority,1809.75
+Female,82,COVID-19 RT-PCR,Insured,308.27,No,No,Routine,1278.3
+Female,61,MRI Scan,Not Insured,434.09,Yes,No,Routine,6678.22
+Male,55,Ultrasound,Insured,269.71,No,Yes,Priority,2530.36
+Male,30,Urine Analysis,Not Insured,362.27,No,No,Priority,1227.71
+Female,81,MRI Scan,Not Insured,285.11,No,No,Routine,6357.53
+Male,67,COVID-19 RT-PCR,Not Insured,390.63,No,No,Routine,1567.48
+Female,15,COVID-19 RT-PCR,Insured,387.82,No,Yes,Routine,1621.54
+Male,63,Urine Analysis,Not Insured,254.22,No,Yes,Routine,878.16
+Female,50,ECG,Insured,104.37,No,No,Priority,995.13
+Male,77,X-Ray,Not Insured,340.12,Yes,No,Routine,1552.12
+Male,85,Blood Test,Insured,295.7,No,No,Routine,378.87
+Female,53,COVID-19 RT-PCR,Insured,292.17,Yes,No,Routine,1552.12
+Female,54,COVID-19 RT-PCR,Insured,142.85,No,No,Routine,1097.08
+Male,3,Urine Analysis,Not Insured,235.9,No,No,Routine,509.46
+Female,84,Urine Analysis,Insured,181.92,No,No,Priority,830.35
+Male,74,CT Scan,Not Insured,119.75,No,No,Routine,4427.7
+Female,61,Thyroid Panel,Not Insured,416.06,Yes,No,Routine,1402.54
+Female,79,Blood Test,Not Insured,323.88,Yes,No,Emergency,1885.16
+Male,68,Lipid Profile,Not Insured,336.46,No,No,Routine,1190.15
+Male,85,X-Ray,Not Insured,378.54,No,Yes,Routine,1729.05
+Male,76,COVID-19 RT-PCR,Not Insured,322.12,Yes,No,Priority,2287.08
+Male,71,MRI Scan,Not Insured,160.87,No,No,Routine,6351.13
+Female,74,ECG,Insured,210.51,No,Yes,Routine,1063.79
+Female,61,CT Scan,Not Insured,340.69,Yes,No,Routine,5038.24
+Female,50,Ultrasound,Insured,378.74,Yes,No,Routine,2269.28
+Male,85,Ultrasound,Not Insured,358.91,No,No,Routine,2296.66
+Female,87,COVID-19 RT-PCR,Not Insured,538.43,No,Yes,Routine,2214.76
+Male,62,MRI Scan,Insured,407.24,No,Yes,Routine,5608.91
+Female,26,CT Scan,Not Insured,307.72,No,Yes,Routine,5041.03
+Female,8,Urine Analysis,Insured,415.5,No,No,Routine,548.41
+Male,31,Blood Test,Not Insured,295.64,No,No,Priority,1185.99
+Male,29,Lipid Profile,Not Insured,424.1,No,Yes,Priority,1988.72
+Male,84,X-Ray,Not Insured,268.21,No,No,Routine,1194.18
+Male,63,Blood Test,Not Insured,155.76,No,No,Priority,1193.94
+Female,40,Ultrasound,Not Insured,398.05,No,No,Priority,2882.0
+Male,12,CT Scan,Not Insured,389.42,No,No,Routine,5076.77
+Male,64,Ultrasound,Not Insured,317.71,No,No,Routine,2383.28
+Male,19,Lipid Profile,Insured,279.82,No,Yes,Routine,1290.58
+Female,85,MRI Scan,Not Insured,462.5,No,No,Routine,6507.94
+Male,77,MRI Scan,Not Insured,338.54,Yes,Yes,Routine,6914.2
+Female,48,CT Scan,Not Insured,377.64,No,Yes,Priority,5552.54
+Female,57,COVID-19 RT-PCR,Insured,286.15,No,No,Priority,1787.2
+Female,15,Lipid Profile,Insured,163.93,No,No,Routine,911.88
+Male,56,Blood Test,Insured,159.49,No,No,Routine,551.79
+Male,31,Urine Analysis,Not Insured,275.84,No,Yes,Routine,827.82
+Male,46,Ultrasound,Insured,219.03,No,No,Priority,2305.75
+Male,48,Ultrasound,Not Insured,346.08,No,No,Emergency,3157.3
+Female,61,MRI Scan,Insured,100.0,No,No,Routine,5078.64
+Male,14,Blood Test,Insured,249.91,No,No,Priority,1075.49
+Male,21,Urine Analysis,Insured,405.57,No,Yes,Routine,998.76
+Female,83,MRI Scan,Insured,269.21,No,No,Priority,5660.46
+Female,54,Thyroid Panel,Insured,395.2,No,No,Priority,1410.35
+Male,26,CT Scan,Insured,521.15,No,No,Routine,4062.12
+Male,57,Blood Test,Not Insured,306.37,No,No,Routine,708.32
+Male,70,CT Scan,Insured,287.85,Yes,No,Emergency,5173.51
+Male,71,MRI Scan,Insured,459.65,No,Yes,Priority,6013.28
+Male,61,COVID-19 RT-PCR,Insured,422.95,No,Yes,Routine,1670.22
+Female,56,MRI Scan,Insured,305.72,No,Yes,Routine,5444.43
+Male,35,COVID-19 RT-PCR,Not Insured,348.78,Yes,No,Emergency,2872.46
+Male,41,Lipid Profile,Not Insured,226.64,No,No,Priority,1491.45
+Female,62,Lipid Profile,Not Insured,209.94,No,Yes,Routine,1274.87
+Female,14,Lipid Profile,Not Insured,340.43,No,No,Priority,1761.67
+Female,18,Urine Analysis,Insured,269.85,No,No,Routine,454.64
+Female,66,Ultrasound,Not Insured,365.12,No,No,Routine,2536.09
+Male,11,Lipid Profile,Insured,335.31,No,Yes,Priority,1872.96
+Female,75,ECG,Not Insured,202.04,No,No,Routine,907.95
+Female,47,Thyroid Panel,Insured,161.0,No,Yes,Routine,1127.65
+Male,22,X-Ray,Insured,215.32,No,No,Routine,1074.52
+Male,77,ECG,Insured,289.38,No,No,Priority,1292.09
+Female,56,Ultrasound,Insured,401.86,No,No,Emergency,3084.06
+Female,41,COVID-19 RT-PCR,Insured,363.13,No,No,Priority,1880.94
+Male,23,Lipid Profile,Not Insured,229.23,No,No,Routine,1040.46
+Male,34,COVID-19 RT-PCR,Insured,437.97,No,No,Emergency,2410.2
+Female,64,CT Scan,Not Insured,369.37,No,Yes,Routine,5125.92
+Male,70,ECG,Not Insured,424.31,No,Yes,Routine,1308.21
+Male,61,Lipid Profile,Insured,383.7,No,Yes,Priority,1967.79
+Female,58,X-Ray,Not Insured,145.04,No,No,Routine,1078.92
+Male,17,Ultrasound,Not Insured,199.43,No,Yes,Priority,2971.78
+Female,44,Lipid Profile,Not Insured,498.28,No,No,Emergency,2226.98
+Female,60,ECG,Insured,418.87,Yes,No,Routine,956.75
+Female,87,Urine Analysis,Insured,468.39,No,No,Emergency,1660.5
+Male,67,Urine Analysis,Insured,244.37,No,No,Routine,363.38
+Female,64,MRI Scan,Insured,415.9,No,No,Routine,5213.43
+Female,70,MRI Scan,Insured,367.8,No,No,Priority,5742.14
+Female,61,CT Scan,Not Insured,494.78,No,No,Routine,5135.04
+Male,67,Blood Test,Insured,334.39,No,No,Routine,785.41
+Male,22,X-Ray,Not Insured,305.9,No,Yes,Routine,1448.47
+Female,83,Blood Test,Not Insured,243.86,No,No,Priority,1046.98
+Female,15,X-Ray,Not Insured,231.63,No,Yes,Routine,1626.66
+Male,80,MRI Scan,Not Insured,415.76,Yes,Yes,Routine,6911.21
+Male,76,Lipid Profile,Insured,469.89,No,No,Routine,1131.28
+Male,52,Thyroid Panel,Insured,311.46,No,No,Routine,1003.09
+Female,25,Urine Analysis,Insured,407.0,No,No,Priority,1085.28
+Female,79,Ultrasound,Not Insured,331.48,No,No,Priority,2685.78
+Female,24,Thyroid Panel,Not Insured,393.92,Yes,No,Routine,1206.77
+Male,68,Urine Analysis,Not Insured,331.87,Yes,No,Routine,903.98
+Male,23,Lipid Profile,Not Insured,339.91,No,No,Routine,1161.68
+Male,84,Ultrasound,Not Insured,245.2,No,No,Routine,2290.15
+Male,19,Ultrasound,Insured,185.87,No,No,Routine,1777.37
+Male,73,Ultrasound,Insured,331.39,No,No,Routine,1990.86
+Female,31,Urine Analysis,Insured,266.43,No,Yes,Routine,904.09
+Female,64,Ultrasound,Insured,100.0,No,Yes,Priority,2524.65
+Female,89,Ultrasound,Not Insured,405.42,No,No,Routine,2364.02
+Male,43,Lipid Profile,Insured,174.84,No,No,Priority,1259.41
+Male,51,X-Ray,Insured,366.5,No,No,Emergency,2029.87
+Male,73,Ultrasound,Insured,474.5,No,Yes,Routine,2369.04
+Male,64,CT Scan,Insured,335.75,No,No,Routine,4047.94
+Female,27,MRI Scan,Insured,310.3,No,Yes,Routine,5596.47
+Male,83,Ultrasound,Insured,353.67,No,Yes,Routine,2122.98
+Female,8,Thyroid Panel,Insured,238.26,No,No,Routine,875.13
+Female,73,Thyroid Panel,Not Insured,326.61,Yes,No,Routine,1215.54
+Female,46,Blood Test,Insured,326.92,Yes,No,Routine,787.19
+Male,9,CT Scan,Not Insured,408.41,Yes,Yes,Routine,5443.12
+Female,73,COVID-19 RT-PCR,Insured,514.6,No,No,Routine,1393.09
+Female,47,ECG,Not Insured,299.94,No,Yes,Emergency,2348.41
+Female,63,ECG,Not Insured,452.79,Yes,Yes,Routine,1474.61
+Female,72,Thyroid Panel,Insured,176.79,No,No,Priority,1154.98
+Male,4,ECG,Insured,401.23,No,No,Routine,936.52
+Female,61,X-Ray,Insured,149.32,Yes,No,Routine,1306.72
+Female,31,COVID-19 RT-PCR,Insured,183.28,No,Yes,Emergency,2705.68
+Female,44,Blood Test,Not Insured,326.66,No,No,Routine,537.15
+Female,16,ECG,Not Insured,351.16,No,Yes,Priority,1820.65
+Female,33,Thyroid Panel,Insured,187.51,No,Yes,Priority,1648.41
+Female,50,ECG,Insured,300.67,No,No,Routine,773.15
+Male,20,Blood Test,Insured,399.17,No,No,Priority,1348.54
+Female,80,Thyroid Panel,Not Insured,248.98,No,No,Routine,1030.47
+Male,71,MRI Scan,Not Insured,539.69,No,Yes,Routine,6814.5
+Female,14,ECG,Insured,390.15,No,No,Priority,1321.43
+Female,61,COVID-19 RT-PCR,Not Insured,151.95,No,Yes,Routine,1723.32
+Male,46,Urine Analysis,Not Insured,301.36,No,Yes,Routine,970.41
+Female,54,ECG,Not Insured,128.56,No,No,Routine,477.96
+Male,82,CT Scan,Insured,378.08,No,No,Routine,3895.05
+Male,56,COVID-19 RT-PCR,Insured,430.28,No,Yes,Routine,1755.31
+Female,15,X-Ray,Insured,355.26,No,No,Routine,1216.39
+Male,76,Lipid Profile,Insured,476.69,No,No,Priority,1604.32
+Female,33,ECG,Insured,414.9,No,No,Routine,893.56
+Female,3,CT Scan,Insured,370.73,Yes,No,Priority,4767.88
+Female,4,COVID-19 RT-PCR,Not Insured,259.14,No,Yes,Routine,1787.57
+Female,35,MRI Scan,Not Insured,284.19,No,Yes,Priority,7286.97
+Male,18,Urine Analysis,Insured,498.49,No,No,Priority,1463.64
+Female,33,MRI Scan,Not Insured,499.01,No,No,Routine,6546.49
+Male,89,Lipid Profile,Insured,250.78,No,No,Routine,900.2
+Female,43,X-Ray,Not Insured,397.67,Yes,No,Routine,1659.54
+Female,10,MRI Scan,Insured,370.96,No,No,Emergency,6228.05
+Male,77,Ultrasound,Not Insured,360.92,Yes,Yes,Emergency,3859.79
+Male,56,Lipid Profile,Insured,419.88,No,No,Routine,1129.21
+Female,46,CT Scan,Not Insured,459.69,No,No,Priority,5532.12
+Male,71,Ultrasound,Not Insured,243.06,No,No,Priority,2862.44
+Male,27,CT Scan,Insured,269.47,No,No,Routine,3811.74
+Male,29,X-Ray,Not Insured,286.17,No,No,Routine,1369.54
+Female,21,X-Ray,Not Insured,311.48,No,No,Emergency,2432.46
+Male,34,X-Ray,Not Insured,100.0,No,Yes,Priority,1732.44
+Male,21,Thyroid Panel,Insured,212.57,No,No,Routine,741.48
+Female,5,Lipid Profile,Insured,290.37,No,Yes,Priority,1742.53
+Female,73,CT Scan,Not Insured,352.64,No,No,Routine,4941.79
+Male,41,Ultrasound,Insured,168.23,No,Yes,Emergency,3092.23
+Female,1,Thyroid Panel,Insured,201.14,Yes,Yes,Routine,1254.37
+Male,66,Ultrasound,Insured,264.71,No,Yes,Routine,2052.21
+Male,2,Ultrasound,Not Insured,443.16,No,No,Routine,2250.85
+Male,65,MRI Scan,Insured,539.64,No,Yes,Emergency,6708.26
+Female,36,X-Ray,Not Insured,206.75,No,No,Routine,1297.86
+Female,43,Urine Analysis,Not Insured,271.51,No,Yes,Routine,776.14
+Female,44,X-Ray,Insured,277.72,No,No,Routine,1078.36
+Male,28,Lipid Profile,Insured,215.3,No,No,Emergency,1703.63
+Female,34,CT Scan,Not Insured,392.23,Yes,Yes,Routine,5322.62
+Female,58,Blood Test,Insured,196.93,No,No,Routine,587.79
+Male,29,Urine Analysis,Not Insured,432.45,No,No,Routine,818.8
+Female,62,MRI Scan,Insured,290.36,No,No,Routine,5074.21
+Female,3,CT Scan,Insured,367.63,No,No,Routine,4003.35
+Female,73,Blood Test,Insured,502.23,No,No,Routine,756.66
+Male,30,Ultrasound,Insured,315.55,No,No,Emergency,2739.22
+Female,46,MRI Scan,Insured,300.35,No,No,Routine,5118.66
+Female,21,MRI Scan,Insured,257.74,No,Yes,Routine,5502.54
+Female,64,Ultrasound,Not Insured,276.14,No,Yes,Routine,2614.8
+Female,31,ECG,Insured,404.79,No,No,Routine,695.47
+Female,85,CT Scan,Insured,100.0,No,No,Priority,4095.81
+Female,76,Thyroid Panel,Insured,112.7,Yes,No,Priority,1352.25
+Female,81,Urine Analysis,Not Insured,239.72,No,No,Routine,557.07
+Male,75,Blood Test,Not Insured,292.97,No,No,Routine,771.12
+Male,69,Urine Analysis,Not Insured,315.03,No,No,Priority,1025.11
+Male,74,COVID-19 RT-PCR,Not Insured,228.46,Yes,Yes,Priority,2343.83
+Female,46,Ultrasound,Insured,503.12,Yes,No,Priority,2784.99
+Female,56,MRI Scan,Insured,335.88,Yes,No,Routine,5500.33
+Male,22,Ultrasound,Insured,202.83,No,Yes,Routine,2222.8
+Female,37,Lipid Profile,Insured,438.92,No,No,Emergency,1968.64
+Female,46,Thyroid Panel,Insured,277.01,No,No,Routine,849.63
+Male,63,Ultrasound,Insured,288.95,No,No,Routine,1948.38
+Female,65,CT Scan,Not Insured,169.22,No,Yes,Routine,4964.78
+Female,28,Blood Test,Insured,258.09,No,No,Priority,1065.77
+Female,10,COVID-19 RT-PCR,Not Insured,370.43,Yes,Yes,Priority,2536.74
+Male,20,ECG,Insured,267.65,Yes,No,Emergency,1952.73
+Female,69,Lipid Profile,Insured,248.76,No,No,Priority,1188.98
+Female,36,Lipid Profile,Not Insured,375.98,No,No,Routine,1261.69
+Female,9,X-Ray,Insured,172.99,Yes,No,Emergency,2188.77
+Female,69,Ultrasound,Not Insured,137.34,No,No,Routine,2153.29
+Male,43,CT Scan,Insured,402.03,No,No,Priority,4494.69
+Male,45,ECG,Not Insured,403.41,No,No,Routine,980.35
+Female,35,MRI Scan,Not Insured,352.2,No,No,Routine,6255.82
+Female,61,CT Scan,Not Insured,236.61,No,No,Routine,4787.8
+Male,56,MRI Scan,Not Insured,336.45,No,No,Priority,6819.82
+Female,67,CT Scan,Not Insured,282.4,No,No,Priority,5340.68
+Male,20,ECG,Not Insured,219.12,Yes,No,Routine,1071.52
+Male,0,X-Ray,Not Insured,189.22,No,No,Priority,1716.84
+Male,8,ECG,Insured,264.83,No,No,Routine,785.87
+Male,24,Ultrasound,Insured,133.31,No,No,Priority,2178.17
+Female,9,CT Scan,Not Insured,239.48,No,Yes,Routine,4912.4
+Female,71,Ultrasound,Insured,185.72,No,No,Routine,1896.82
+Female,71,COVID-19 RT-PCR,Not Insured,163.92,No,Yes,Routine,1747.94
+Male,71,Thyroid Panel,Insured,283.37,No,Yes,Routine,1248.73
+Male,42,COVID-19 RT-PCR,Insured,224.1,No,No,Priority,1470.79
+Female,85,ECG,Insured,299.61,No,No,Routine,870.55
+Male,22,Blood Test,Not Insured,313.66,No,No,Routine,708.95
+Male,70,X-Ray,Not Insured,255.81,No,Yes,Routine,1519.13
+Female,77,MRI Scan,Insured,289.8,No,No,Routine,4981.9
+Female,42,Thyroid Panel,Insured,237.37,No,No,Priority,1434.49
+Male,69,MRI Scan,Not Insured,406.82,No,No,Routine,6612.75
+Male,7,MRI Scan,Insured,346.24,Yes,No,Priority,5914.18
+Male,81,ECG,Insured,396.18,No,Yes,Routine,1089.47
+Female,59,Thyroid Panel,Insured,399.38,Yes,No,Routine,1254.87
+Female,13,Thyroid Panel,Insured,335.46,Yes,Yes,Priority,1804.69
+Male,45,MRI Scan,Insured,140.42,Yes,No,Priority,5545.11
+Male,59,CT Scan,Not Insured,427.14,No,Yes,Priority,5793.68
+Male,81,Lipid Profile,Not Insured,422.37,No,No,Routine,1102.06
+Male,6,Thyroid Panel,Insured,157.32,No,No,Emergency,1661.11
+Male,89,Ultrasound,Insured,299.82,No,No,Routine,2008.74
+Female,52,X-Ray,Insured,347.28,No,No,Priority,1534.17
+Female,12,COVID-19 RT-PCR,Not Insured,212.3,No,No,Routine,1452.12
+Female,76,Lipid Profile,Not Insured,293.36,No,No,Routine,1135.25
+Female,75,MRI Scan,Insured,159.42,No,No,Routine,4806.81
+Female,74,COVID-19 RT-PCR,Insured,267.36,No,No,Routine,1441.15
+Male,68,Urine Analysis,Not Insured,121.26,No,Yes,Priority,1257.57
+Male,22,Blood Test,Insured,317.54,No,No,Emergency,1593.2
+Male,7,Urine Analysis,Not Insured,454.04,No,No,Priority,1315.01
+Male,49,COVID-19 RT-PCR,Not Insured,100.0,No,No,Routine,1242.5
+Male,67,Lipid Profile,Not Insured,223.75,No,Yes,Routine,1224.35
+Female,57,Ultrasound,Insured,231.22,No,No,Routine,1811.14
+Female,15,ECG,Not Insured,100.0,No,Yes,Routine,1046.36
+Female,25,ECG,Insured,302.72,No,No,Routine,652.7
+Male,16,MRI Scan,Not Insured,361.15,Yes,No,Priority,7092.21
+Male,10,CT Scan,Insured,247.75,No,No,Routine,3854.89
+Male,48,Thyroid Panel,Not Insured,176.78,No,No,Priority,1399.03
+Male,46,Thyroid Panel,Insured,282.14,No,No,Priority,1304.73
+Male,63,CT Scan,Insured,216.85,No,Yes,Emergency,5129.53
+Male,34,Blood Test,Insured,268.83,Yes,No,Routine,836.27
+Female,77,CT Scan,Insured,286.72,Yes,No,Routine,4123.94
+Female,88,X-Ray,Insured,384.23,No,Yes,Routine,1577.05
+Female,85,Urine Analysis,Insured,299.39,No,No,Priority,1045.64
+Female,63,MRI Scan,Not Insured,323.52,No,Yes,Routine,6600.23
+Male,9,CT Scan,Insured,412.42,No,No,Priority,4357.06
+Female,70,X-Ray,Not Insured,293.76,No,No,Emergency,2345.21
+Male,74,CT Scan,Not Insured,303.07,No,No,Routine,4821.5
+Female,85,Urine Analysis,Insured,434.22,No,No,Priority,1038.23
+Male,28,Blood Test,Insured,415.7,No,No,Routine,495.08
+Male,51,Lipid Profile,Insured,386.88,Yes,No,Routine,1197.55
+Male,70,Ultrasound,Not Insured,300.58,Yes,Yes,Routine,2586.93
+Male,14,Thyroid Panel,Not Insured,260.32,No,No,Routine,966.01
+Male,83,Lipid Profile,Not Insured,403.91,No,Yes,Routine,1411.47
+Male,78,CT Scan,Insured,228.94,No,Yes,Priority,4639.77
+Female,12,Urine Analysis,Not Insured,396.31,No,No,Routine,746.77
+Female,15,Thyroid Panel,Insured,181.38,Yes,Yes,Priority,1577.87
+Female,75,Urine Analysis,Insured,302.21,No,No,Routine,668.67
+Male,76,Urine Analysis,Insured,377.26,No,No,Routine,706.57
+Female,33,COVID-19 RT-PCR,Not Insured,265.65,Yes,Yes,Routine,1870.11
+Male,6,CT Scan,Insured,216.38,No,Yes,Routine,3904.25
+Female,2,CT Scan,Insured,193.54,No,No,Routine,3715.05
+Male,54,COVID-19 RT-PCR,Insured,259.0,No,Yes,Routine,1657.28
+Female,70,Urine Analysis,Insured,193.31,No,Yes,Priority,1249.45
+Male,80,ECG,Insured,204.82,No,Yes,Priority,1464.16
+Female,9,Ultrasound,Insured,230.16,No,No,Routine,1804.62
+Male,66,ECG,Insured,377.9,Yes,Yes,Routine,1340.56
+Female,59,MRI Scan,Not Insured,173.76,No,No,Routine,6147.01
+Female,53,Urine Analysis,Not Insured,260.11,No,No,Priority,981.33
+Female,60,Blood Test,Insured,172.74,No,No,Routine,421.94
+Male,19,COVID-19 RT-PCR,Insured,173.57,Yes,No,Routine,1306.42
+Female,52,ECG,Insured,318.6,Yes,No,Priority,1516.84
+Male,77,Ultrasound,Insured,219.5,No,No,Routine,1900.49
+Female,40,COVID-19 RT-PCR,Insured,338.12,Yes,Yes,Priority,2340.37
+Male,28,Ultrasound,Insured,266.46,Yes,Yes,Routine,2318.08
+Male,42,Thyroid Panel,Not Insured,274.4,No,No,Emergency,2091.71
+Female,16,Lipid Profile,Insured,192.11,No,Yes,Routine,1116.04
+Female,4,MRI Scan,Insured,215.3,No,No,Priority,5433.9
+Male,6,CT Scan,Insured,367.65,No,No,Routine,4006.91
+Male,62,Thyroid Panel,Insured,290.1,No,No,Emergency,2122.08
+Male,69,COVID-19 RT-PCR,Not Insured,156.36,Yes,No,Routine,1462.99
+Female,48,MRI Scan,Insured,252.49,Yes,Yes,Routine,5443.62
+Female,2,Ultrasound,Insured,427.99,No,No,Routine,1991.28
+Male,75,MRI Scan,Not Insured,302.37,Yes,No,Routine,6526.37
+Female,36,Thyroid Panel,Insured,290.43,No,No,Priority,1184.13
+Male,66,Ultrasound,Not Insured,242.57,Yes,No,Routine,2548.37
+Male,1,X-Ray,Insured,250.95,No,Yes,Priority,1802.64
+Male,86,Lipid Profile,Insured,449.32,No,Yes,Routine,1376.76
+Female,3,MRI Scan,Not Insured,391.41,No,No,Routine,6379.98
+Female,84,Thyroid Panel,Insured,339.76,No,No,Routine,1065.19
+Male,75,ECG,Insured,259.08,No,No,Routine,745.19
+Female,36,Urine Analysis,Not Insured,177.66,No,No,Priority,1094.51
+Male,74,Urine Analysis,Not Insured,470.85,No,No,Routine,796.45
+Female,72,CT Scan,Not Insured,342.29,No,No,Routine,4913.33
+Male,0,MRI Scan,Not Insured,326.34,No,Yes,Routine,6791.64
+Female,35,Lipid Profile,Not Insured,344.83,No,No,Routine,1102.66
+Male,32,Urine Analysis,Not Insured,247.36,No,No,Routine,459.88
+Female,40,Blood Test,Insured,397.71,No,No,Emergency,1606.19
+Male,46,Blood Test,Insured,265.31,Yes,No,Priority,1257.31
+Male,34,Thyroid Panel,Insured,265.4,Yes,No,Priority,1675.36
+Female,79,Thyroid Panel,Insured,383.38,No,No,Routine,946.04
+Female,3,Blood Test,Insured,349.24,Yes,No,Routine,1057.19
+Female,1,COVID-19 RT-PCR,Insured,482.55,No,No,Routine,1337.61
+Female,51,X-Ray,Insured,286.1,No,Yes,Priority,1913.33
+Female,59,Thyroid Panel,Not Insured,402.62,No,Yes,Priority,1743.7
+Male,19,Lipid Profile,Not Insured,370.07,Yes,No,Priority,1935.98
+Male,44,Lipid Profile,Not Insured,384.25,No,Yes,Routine,1455.34
+Male,26,CT Scan,Not Insured,207.42,No,No,Routine,4658.96
+Female,75,Urine Analysis,Not Insured,405.43,No,No,Routine,783.01
+Male,62,Blood Test,Insured,388.71,No,No,Routine,786.08
+Male,29,CT Scan,Insured,369.65,No,No,Priority,4415.88
+Male,46,Urine Analysis,Not Insured,424.37,No,Yes,Routine,1022.15
+Female,67,Lipid Profile,Insured,193.56,No,Yes,Routine,937.64
+Male,75,Blood Test,Insured,385.45,No,No,Priority,1276.59
+Female,55,ECG,Not Insured,246.04,No,No,Routine,991.16
+Male,75,COVID-19 RT-PCR,Not Insured,265.92,Yes,No,Priority,2067.99
+Female,72,Lipid Profile,Not Insured,385.6,No,No,Routine,1182.0
+Male,35,Ultrasound,Not Insured,324.73,No,No,Priority,2758.85
+Male,34,X-Ray,Insured,349.79,No,Yes,Priority,1869.42
+Female,83,COVID-19 RT-PCR,Insured,328.48,No,Yes,Priority,2113.47
+Male,46,Urine Analysis,Insured,175.1,No,No,Routine,385.75
+Male,1,COVID-19 RT-PCR,Insured,300.54,Yes,No,Routine,1337.25
+Male,68,CT Scan,Not Insured,224.21,Yes,No,Emergency,6077.47
+Male,75,Lipid Profile,Insured,163.38,No,No,Priority,1347.55
+Female,42,Thyroid Panel,Insured,238.21,Yes,Yes,Routine,1266.35
+Male,87,Lipid Profile,Insured,337.68,No,No,Routine,969.01
+Male,57,Ultrasound,Insured,276.59,Yes,No,Routine,2032.29
+Female,8,Lipid Profile,Insured,288.05,No,No,Priority,1583.39
+Female,18,X-Ray,Not Insured,303.03,No,No,Emergency,2321.42
+Male,77,Ultrasound,Insured,573.29,No,No,Priority,2726.85
+Female,63,ECG,Not Insured,347.2,No,Yes,Routine,1206.78
+Female,11,X-Ray,Insured,360.69,No,No,Priority,1687.66
+Female,36,ECG,Insured,261.64,No,No,Routine,587.9
+Female,26,COVID-19 RT-PCR,Not Insured,279.16,No,No,Priority,1899.76
+Male,61,Thyroid Panel,Insured,273.75,Yes,No,Routine,1079.64
+Female,63,ECG,Insured,408.01,No,No,Routine,946.71
+Male,33,COVID-19 RT-PCR,Insured,307.33,No,No,Routine,1401.12
+Male,34,MRI Scan,Insured,467.11,No,No,Priority,5695.94
+Female,59,Urine Analysis,Insured,237.9,No,No,Routine,310.85
+Female,7,X-Ray,Not Insured,282.18,No,No,Routine,1193.73
+Male,52,Lipid Profile,Not Insured,370.72,Yes,Yes,Routine,1628.4
+Male,45,Lipid Profile,Not Insured,359.6,No,No,Routine,1142.98
+Male,72,COVID-19 RT-PCR,Insured,306.33,No,Yes,Priority,2086.36
+Male,36,Lipid Profile,Not Insured,241.53,No,No,Routine,851.87
+Male,86,Urine Analysis,Insured,259.83,No,No,Routine,427.89
+Female,81,Ultrasound,Insured,454.67,Yes,No,Routine,2194.38
+Female,15,Ultrasound,Not Insured,248.5,No,Yes,Routine,2460.98
+Male,0,MRI Scan,Insured,333.58,No,Yes,Routine,5321.49
+Male,45,Blood Test,Insured,314.49,Yes,Yes,Routine,1079.73
+Male,10,COVID-19 RT-PCR,Insured,303.2,No,No,Routine,1266.34
+Female,10,Lipid Profile,Insured,232.21,No,No,Emergency,1761.78
+Male,89,MRI Scan,Insured,281.35,No,No,Routine,5132.31
+Female,62,MRI Scan,Insured,366.16,No,Yes,Priority,5955.49
+Female,17,Urine Analysis,Insured,285.5,No,Yes,Priority,1619.14
+Female,35,MRI Scan,Insured,379.7,Yes,No,Emergency,6465.61
+Female,60,MRI Scan,Insured,471.8,No,No,Priority,5770.78
+Female,78,MRI Scan,Not Insured,382.31,No,Yes,Priority,7069.27
+Female,19,COVID-19 RT-PCR,Not Insured,233.23,No,Yes,Priority,2219.67
+Male,45,Blood Test,Not Insured,165.57,No,No,Priority,1009.65
+Male,64,ECG,Not Insured,223.96,No,Yes,Routine,1084.25
+Female,10,Urine Analysis,Insured,138.22,No,No,Routine,341.16
+Female,15,Thyroid Panel,Not Insured,251.77,No,No,Routine,896.43
+Male,7,MRI Scan,Not Insured,522.05,Yes,No,Routine,6818.6
+Female,34,Lipid Profile,Not Insured,139.92,No,No,Routine,749.34
+Male,78,COVID-19 RT-PCR,Not Insured,245.49,Yes,No,Routine,1770.12
+Male,61,ECG,Insured,179.89,No,No,Routine,476.45
+Female,37,Ultrasound,Not Insured,433.29,No,No,Routine,2472.18
+Female,61,MRI Scan,Insured,199.16,No,No,Routine,5109.29
+Female,38,COVID-19 RT-PCR,Insured,333.32,No,No,Routine,1291.38
+Male,22,COVID-19 RT-PCR,Insured,373.51,No,No,Routine,1343.5
+Female,7,Blood Test,Insured,336.51,No,No,Routine,718.36
+Female,26,Blood Test,Insured,209.07,No,No,Priority,1073.7
+Female,10,Lipid Profile,Insured,448.74,No,No,Routine,1053.83
+Male,26,Thyroid Panel,Insured,200.4,No,No,Priority,1173.41
+Female,25,CT Scan,Insured,352.83,No,No,Routine,4033.91
+Female,61,ECG,Not Insured,460.78,No,No,Priority,1615.63
+Female,33,Blood Test,Not Insured,273.25,No,No,Routine,665.66
+Male,5,Ultrasound,Not Insured,312.27,Yes,No,Routine,2474.28
+Male,87,Thyroid Panel,Insured,167.72,Yes,Yes,Priority,1843.78
+Male,70,ECG,Not Insured,188.59,No,No,Routine,830.84
+Female,57,COVID-19 RT-PCR,Not Insured,145.73,No,No,Routine,1491.02
+Female,70,X-Ray,Insured,126.51,No,No,Priority,1442.2
+Female,81,Urine Analysis,Insured,255.2,No,Yes,Routine,955.85
+Male,33,MRI Scan,Insured,116.84,No,No,Emergency,5832.62
+Male,84,Blood Test,Insured,201.75,No,No,Priority,1067.11
+Female,19,X-Ray,Not Insured,405.46,No,No,Emergency,2486.47
+Female,87,Lipid Profile,Not Insured,410.05,No,No,Routine,1304.8
+Female,49,MRI Scan,Not Insured,313.18,No,Yes,Routine,6586.2
+Female,78,Urine Analysis,Insured,353.47,No,No,Priority,1120.23
+Female,88,X-Ray,Insured,184.59,No,Yes,Routine,1522.28
+Female,36,Ultrasound,Insured,419.1,No,No,Routine,2053.79
+Male,20,Blood Test,Not Insured,221.93,No,Yes,Routine,976.45
+Male,4,CT Scan,Not Insured,228.29,No,No,Priority,5248.69
+Female,19,Blood Test,Not Insured,279.41,No,No,Routine,627.35
+Female,88,CT Scan,Not Insured,174.01,No,No,Routine,4847.39
+Male,77,Blood Test,Not Insured,541.33,No,Yes,Priority,1643.54
+Male,82,ECG,Insured,454.86,No,Yes,Priority,1691.28
+Male,18,CT Scan,Not Insured,292.04,No,Yes,Priority,5623.9
+Female,19,COVID-19 RT-PCR,Insured,347.07,Yes,No,Routine,1473.58
+Female,16,CT Scan,Insured,437.6,No,No,Routine,4235.45
+Female,47,COVID-19 RT-PCR,Insured,367.52,Yes,No,Routine,1494.59
+Male,84,Lipid Profile,Insured,234.12,Yes,No,Routine,965.69
+Male,17,Blood Test,Not Insured,267.26,No,No,Routine,796.75
+Male,39,Ultrasound,Insured,198.47,No,No,Routine,1794.84
+Female,70,Blood Test,Insured,348.05,No,No,Priority,1284.57
+Male,14,Blood Test,Not Insured,206.62,Yes,No,Routine,708.72
+Female,16,Lipid Profile,Insured,100.0,No,No,Routine,792.41
+Female,41,COVID-19 RT-PCR,Not Insured,338.64,Yes,No,Priority,2338.19
+Male,33,Blood Test,Insured,437.87,Yes,No,Routine,896.73
+Male,73,CT Scan,Insured,404.62,No,Yes,Priority,4593.72
+Female,46,Urine Analysis,Insured,221.65,No,No,Priority,959.45
+Female,57,Blood Test,Insured,314.64,No,No,Priority,1201.02
+Male,71,Blood Test,Not Insured,211.54,No,No,Routine,447.31
+Female,23,Urine Analysis,Not Insured,526.77,Yes,No,Priority,1714.74
+Female,40,MRI Scan,Insured,291.42,Yes,No,Routine,5249.17
+Male,23,Ultrasound,Insured,354.98,No,No,Routine,2045.3
+Female,85,MRI Scan,Not Insured,223.24,No,No,Routine,6207.65
+Female,77,ECG,Not Insured,213.59,Yes,No,Routine,1020.39
+Male,30,Lipid Profile,Insured,288.09,No,No,Routine,857.68
+Female,82,Lipid Profile,Insured,360.04,No,No,Priority,1578.05
+Male,39,Thyroid Panel,Insured,480.13,No,No,Emergency,2067.45
+Male,2,CT Scan,Not Insured,266.89,No,Yes,Priority,5503.73
+Male,19,COVID-19 RT-PCR,Insured,410.57,No,Yes,Routine,1850.15
+Male,36,Urine Analysis,Insured,369.12,Yes,No,Priority,1190.41
+Male,63,ECG,Insured,291.01,No,No,Routine,878.56
+Male,79,Urine Analysis,Not Insured,380.69,Yes,No,Routine,936.9
+Female,78,Thyroid Panel,Insured,412.69,No,No,Routine,1057.34
+Female,52,Lipid Profile,Insured,343.27,No,No,Routine,1095.94
+Male,48,MRI Scan,Insured,380.25,Yes,No,Priority,6251.05
+Male,63,Thyroid Panel,Insured,151.06,No,No,Routine,636.08
+Male,83,Ultrasound,Insured,457.19,Yes,No,Routine,2295.22
+Male,18,Thyroid Panel,Insured,481.59,No,No,Routine,982.48
+Male,23,ECG,Not Insured,228.48,No,Yes,Emergency,2100.54
+Female,13,Lipid Profile,Not Insured,248.98,No,Yes,Routine,1261.3
+Male,8,Urine Analysis,Not Insured,286.9,No,No,Routine,444.06
+Female,15,Lipid Profile,Not Insured,322.37,No,Yes,Emergency,2415.7
+Female,45,Urine Analysis,Insured,247.29,No,No,Priority,1063.93
+Male,69,CT Scan,Not Insured,311.68,No,No,Routine,4759.15
+Female,79,COVID-19 RT-PCR,Not Insured,375.96,No,No,Priority,2035.88
+Female,27,COVID-19 RT-PCR,Insured,279.21,No,Yes,Routine,1497.04
